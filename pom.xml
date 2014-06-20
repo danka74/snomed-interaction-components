@@ -49,6 +49,12 @@
 								<prefix>/srv/http/${project.artifactId}</prefix>
 							</mapper>
 						</data>
+						<data>
+							<src>${basedir}/deb/web.conf</src>
+							<dst>/etc/nginx/conf.d/${project.artifactId}.conf</dst>
+							<type>file</type>
+							<conffile>true</conffile>
+						</data>
 					</dataSet>
 				</configuration>
 			</plugin>

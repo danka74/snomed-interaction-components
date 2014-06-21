@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.ihtsdo.snomed</groupId>
-	<artifactId>snomed-interaction</artifactId>
+	<artifactId>snomed-interaction-components</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>deb</packaging>

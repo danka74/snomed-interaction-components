@@ -32,13 +32,13 @@
 				<version>1.2</version>
 				<!-- Customize deb package -->
 				<configuration>
+			  		<deb>${project.build.directory}/${artifactId}-${project.version}-all.deb</deb>
 					<controlDir>${basedir}/deb/control</controlDir>
 					<snapshotExpand>true</snapshotExpand>
 					<snapshotEnv>BUILD_NUMBER</snapshotEnv>
 					<signPackage>false</signPackage>
 					<classifier>all</classifier>
 					<dataSet>
-						<deb>${project.build.directory}/${artifactId}-${project.version}-all.deb</deb>
 						<data>
 							<src>${project.build.outputDirectory}</src>
 							<type>directory</type>

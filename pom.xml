@@ -38,6 +38,7 @@
 					<signPackage>false</signPackage>
 					<classifier>all</classifier>
 					<dataSet>
+						<deb>${project.build.directory}/${artifactId}-${project.version}-all.deb</deb>
 						<data>
 							<src>${project.build.outputDirectory}</src>
 							<type>directory</type>
